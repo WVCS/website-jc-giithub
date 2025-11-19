@@ -1,3 +1,37 @@
 body {
+background-color: cadetblue;
+}
 
+img {
+	width: 380px;
+	border: 15px  dotted #972B46;
+	border-radius: 50%;
+}
+img:hover {
+	border: 25px solid #866CAB;
+}
+h1 {
+	color: sandybrown;
+	text-decoration: underline wavy;
+	text-shadow: 12px 12px 15px black;
+	font-size: 50px;
+}
+ul {
+	list-style-type:decimal;
+	background-color:#9C6768;
+	width:200px;
+	margin: 0;
+	padding: 0;
+}
+
+li a {
+	display: block;
+	text-decoration: none;
+	color: gold;
+	padding: 8px 16px;
+}
+
+li a:hover{
+	background-color:white;
+	color:darksalmon;
 }
